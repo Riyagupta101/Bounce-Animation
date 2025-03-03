@@ -1,0 +1,64 @@
+.box{
+    background-color:rgb(106, 183, 106);
+    height: 120px;
+    width: 120px;
+    border-radius: 60px;
+    position: absolute;
+    box-shadow: 0px 40px 60px rgb(4, 102, 4);
+    bottom: 0;
+    left: 0;
+    animation: animateX 2s linear infinite, animateY 1s ease-out infinite alternate;
+}
+.container{
+    background-image: url(139512.jpg);
+    height: 98vh;
+    width: 98vw;
+    position: relative;
+}
+@keyframes animateX {
+    from{
+        left: 0;
+    }
+    to{
+        left: 90%;
+    }
+}
+
+@keyframes animateY {
+   from{
+        bottom: 0;
+    }
+    to{
+        bottom: 80% ;
+    }
+}
+.box2{
+    background-color: rgb(106, 183, 106);;
+    height: 120px;
+    width: 120px;
+    border-radius: 60px;
+    position: absolute;
+    box-shadow: 0px 40px 60px rgb(4, 102, 4);
+    top: 0;
+    right: 0;
+    animation: animateA 2s linear infinite, animateB 1s ease-out infinite alternate;
+
+}
+@keyframes animateA{
+    from{
+        right: 0;
+    }
+    to{
+        right: 90%;
+    }
+}
+
+@keyframes animateY {
+   from{
+        top: 0;
+    }
+    to{
+        top: 80% ;
+    }
+}
+
